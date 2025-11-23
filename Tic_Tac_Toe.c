@@ -192,14 +192,14 @@ int main()
         if (evaluate() == -10)
         {
             printBoard();
-            printf("🎉 You Win!\n");
+            printf(" You Win!\n");
             break;
         }
 
         if (!movesLeft())
         {
             printBoard();
-            printf("🤝 Draw!\n");
+            printf(" Draw!\n");
             break;
         }
 
@@ -209,14 +209,14 @@ int main()
         if (evaluate() == 10)
         {
             printBoard();
-            printf("🤖 AI Wins!\n");
+            printf(" AI Wins!\n");
             break;
         }
 
         if (!movesLeft())
         {
             printBoard();
-            printf("🤝 Draw!\n");
+            printf(" Draw!\n");
             break;
         }
     }
